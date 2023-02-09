@@ -26,7 +26,7 @@ public class App
     animalReference.levelOfHealthStatus = 8;
     animalReference.moodLevel = 10;
 
-        System.out.println(animalReference);
+
 
     AnimalFood animalFoodReference = new AnimalFood();
     animalFoodReference.foodName = "Meat";
@@ -35,26 +35,25 @@ public class App
     animalFoodReference.stockAvailability = true;
     animalFoodReference.expiryDate = 10/10/2026;
 
-        System.out.println(animalFoodReference);
+
 
     Game gameReference = new Game();
     gameReference.adopter = "Jon";
     gameReference.dog = "Bishon";
     gameReference.vet = "Charly";
 
-        System.out.println(gameReference);
+
 
     RecreationActivity recreationActivityReference = new RecreationActivity();
     recreationActivityReference.recreationName = "Running";
 
-        System.out.println(recreationActivityReference);
+
 
     Vet vetReference = new Vet();
     vetReference.vetName = "Charly";
     vetReference.vetSpecialization = "Pets";
 
-        System.out.println(vetReference);
-
+        System.out.println(vetReference.vetName);
 
 
     }
