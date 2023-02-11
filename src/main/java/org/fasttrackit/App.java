@@ -1,5 +1,7 @@
 package org.fasttrackit;
 
+import java.time.LocalDate;
+
 /**
  * Hello world!
  *
@@ -33,7 +35,9 @@ public class App
     animalFoodReference.foodPrice = 7.5;
     animalFoodReference.foodQuantity = 5;
     animalFoodReference.stockAvailability = true;
-    animalFoodReference.expiryDate = 10/10/2026;
+    animalFoodReference.expiryDate = LocalDate.of(2024,12,10);
+        System.out.println(animalFoodReference.expiryDate);
+
 
 
 
